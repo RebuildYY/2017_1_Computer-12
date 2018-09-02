@@ -171,6 +171,7 @@ void CMFC_MainDoc::OnToolsDfs()
 
 void CMFC_MainDoc::OnToolsBfs()
 {
+	BFS();
 #ifdef GRAPHICS_BUFFERED
 	g_pView->m_bRedraw = true;
 #endif
